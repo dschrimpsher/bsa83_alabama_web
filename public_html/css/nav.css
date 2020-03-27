@@ -1,0 +1,33 @@
+.scount-num {
+    width: 25px;
+    height: 40px;
+    margin-left: 0;
+    margin-right:  0;
+    padding-left: 0;
+    padding-right:0;
+}
+
+.navbar {
+}
+
+@media (max-width: 767px) {
+    .nav-item .nav-link {
+        font-size: 1em;
+    }
+}
+@media (min-width: 768px) {
+    .nav-item .nav-link {
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-item .nav-link {
+        font-size: 1em;
+    }
+}
+
+
+.bg-dark {
+    background-color: #996633 !important;
+}

@@ -1,0 +1,136 @@
+
+
+
+
+.jumbotron {
+    background-color: white;
+    color: #003F87;
+    padding-bottom: 0rem;
+    padding-top: 3rem;
+}
+
+
+/* Tiny */
+@media (max-width: 320px) {
+    .little-header {
+        width: 100%;
+        height: auto;
+        font-size: 0.7rem;
+        color: #003F87;
+        text-align: center;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .medium-header {
+        width: 100%;
+        height: auto;
+        color: #003F87;
+        text-align: center;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+        font-size: 0.8rem;
+    }
+    .little-image {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .small {
+        font-size: 0.65rem;
+    }
+
+}
+
+/* Big phone*/
+@media (min-width: 321px) and (max-width: 767px) {
+    .little-header {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        color: #003F87;
+        text-align: center;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .medium-header {
+        width: 100%;
+        height: auto;
+        color: #003F87;
+        text-align: center;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+        font-size: 1rem;
+    }
+
+    .little-image {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .small {
+        font-size: 0.8rem;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .little-header {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        color: #003F87;
+        text-align: center;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .medium-header {
+        width: 100%;
+        height: auto;
+        color: #003F87;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+        font-size: 2rem;
+    }
+    .little-image {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .small {
+        font-size: 0.8rem;
+    }
+
+}
+
+/* big monitors */
+@media (min-width: 1024px) {
+    .little-header {
+        width: 100%;
+        height: auto;
+        font-size: 1.75rem;
+        color: #003F87;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .medium-header {
+        width: 100%;
+        height: auto;
+        color: #003F87;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+        font-size: 3rem;
+    }
+    .little-image {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .small {
+        font-size: 1rem;
+    }
+}

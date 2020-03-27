@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/myfav.ico">
+
+    <title>BSA Troop 83 Upcoming Events</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/upcoming-events.css" rel="stylesheet">
+    <link href="./css/nav.css" rel="stylesheet">
+    <link href="./css/banner.css" rel="stylesheet">
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/events.js"></script>
+    <script src='https://apis.google.com/js/client.js?onload=handleClientLoad'></script>
+
+</head>
+
+<body>
+
+<div w3-include-html="./nav.html"></div>
+
+<script>
+    w3.includeHTML();
+</script>
+
+<div w3-include-html="./banner.html"></div>
+
+<script>
+    w3.includeHTML();
+</script>
+<script>
+    $(document).ready(function () {
+        $('#upcoming_events').addClass('active')
+    })
+</script>
+
+
+
+
+
+<div class="container">
+    <div class="starter-template">
+        <div class="row">
+            <div class="col-md-1">
+                <!--<div class="event-box">-->
+                    <!--<h4>Campouts</h4>-->
+                    <!--<P><a href="http://www.alapark.com/oak-mountain-state-park" target="_blank" class="inlineLinks">Oak Mountain</a> Campout is Feb 23-25, 2018</P>-->
+                    <!--<P>Coffee Grounds is March 24-16, 2018</P>-->
+                    <!--<P><a href="http://talakto.org/" target="_blank" class="inlineLinks">Talakto Spring Camporee</a> is April 6-8, 2018</P>-->
+                    <!--<P><a href="https://docs.wixstatic.com/ugd/219c7b_d7688ef8109c422a93fe4c0ce29dae2f.pdf" target="_blank" class="inlineLinks">Grimes Canoe Base </a> is May 4-6, 2018</P>-->
+                    <!--<P><a href="https://1bsa.org/camp.php?cn=8" target="_blank" class="inlineLinks">Summer Camp</a> is June 17-23, 2018</P>-->
+                <!--</div>-->
+            </div>
+            <div class="col-md-10">
+                <div class="event-box">
+                <h4 id="calendar">Upcoming Events</h4>
+                    <ul id='events'></ul>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <!--<div class="event-box">-->
+                <!--<h4>Service</h4>-->
+                <!--<p>A number of Eagle Projects are coming very soon.  Get those shovels ready.</a></p>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Calendar</h2>
+                <!--<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=bsatroop83%40gmail.com&amp;color=%23003F87&amp;ctz=America%2FChicago"-->
+                        <!--style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rcm0i6ta52jlqf69d30a6mshsgocprmr%40import.calendar.google.com&amp;color=%238D6F47&amp;src=q5rskf6su7phofsg9fum66sqfi56fe1i%40import.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>            </div>
+        </div>
+    </div>
+
+
+    <hr class="copywriteline">
+
+    <footer>
+        <p id='updated' style="font-size:12; color:grey">updating . . . . .</p>
+        <p class="copy">&copy; BSA Troop 83 Madison, AL 2017</p>
+    </footer>
+
+</div>
+<!-- Bootstrap core JavaScript
+  ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
