@@ -92,8 +92,54 @@ var items = [
         "h": 768,
         "title": "Oak Mountain"
     },
+    {
+        "src": "./img/2019/camporee/20190427_085411.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Talakto Spring Camporee"
+    },
+    {
+        "src": "./img/2019/camporee/20190427_090104.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Talakto Spring Camporee"
+    },
+    {
+        "src": "./img/2019/grimes/20190504_084559.jpg",
+        "w": 1024,
+        "h": 768,
+        "title": "Grimes Canoe Base"
+    },
+    {
+        "src": "./img/2019/grimes/20190504_095516.jpg",
+        "w": 1024,
+        "h": 768,
+        "title": "Grimes Canoe Base"
+    },
+    {
+        "src": "./img/2019/grimes/20190504_102739.jpg",
+        "w": 1024,
+        "h": 768,
+        "title": "Grimes Canoe Base"
+    },
+    {
+        "src": "./img/2019/grimes/20190504_151209-EFFECTS.jpg",
+        "w": 1024,
+        "h": 768,
+        "title": "Grimes Canoe Base"
+    },
+    {
+        "src": "./img/2019/grimes/20190505_095002.jpg",
+        "w": 1024,
+        "h": 768,
+        "title": "Grimes Canoe Base"
+    },
 
 ];
+
+
+
+
 
 
 
