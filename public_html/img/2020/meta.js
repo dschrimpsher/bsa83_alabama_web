@@ -10,7 +10,7 @@ var campouts = [
     },
     {
         name: "Camp Maranatha",
-        date: "July 31 - 2"
+        date: "July 31 - Aug 2"
     },
     {
         name: "Grimes Canoe Base",
@@ -106,6 +106,162 @@ var items = [
         "w": 1024,
         "h": 576,
         "title": "Virgin Falls Backpacking Trip"
+    },
+    {
+        "src": "./img/2020/maranatha/20200801_102622.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Camp Maranatha"
+    },
+    {
+        "src": "./img/2020/maranatha/20200801_102634.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Camp Maranatha"
+    },
+    {
+        "src": "./img/2020/maranatha/20200801_141342.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Camp Maranatha"
+    },
+    {
+        "src": "./img/2020/maranatha/20200801_141343.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Camp Maranatha"
+    },
+    {
+        "src": "./img/2020/maranatha/20200801_142026.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Camp Maranatha"
+    },
+    {
+        "src": "./img/2020/maranatha/20200801_142030.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Camp Maranatha"
+    },
+    {
+        "src": "./img/2020/maranatha/20200801_161648.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Camp Maranatha"
+    },
+    {
+        "src": "./img/2020/grimes/20200822_184845.jpg",
+        "w": 576,
+        "h": 1024,
+        "title": "Grimes Canoe Base"
+    },
+    {
+        "src": "./img/2020/grimes/20200822_222638.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Grimes Canoe Base"
+    },
+    {
+        "src": "./img/2020/grimes/20200822_222715.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Grimes Canoe Base"
+    },
+    {
+        "src": "./img/2020/guntersville/20200919_144717.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Guntersville Annual Campout"
+    },
+    {
+        "src": "./img/2020/guntersville/20200919_144913.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Guntersville Annual Campout"
+    },
+    {
+        "src": "./img/2020/guntersville/20200919_145148.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Guntersville Annual Campout"
+    },
+    {
+        "src": "./img/2020/guntersville/20200919_145338.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Guntersville Annual Campout"
+    },
+    {
+        "src": "./img/2020/guntersville/20200919_150902.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Guntersville Annual Campout"
+    },
+    {
+        "src": "./img/2020/guntersville/20200920_100636.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Guntersville Annual Campout"
+    },
+    {
+        "src": "./img/2020/camporee/20201003_105934.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Talakto District Camporee"
+    },
+    {
+        "src": "./img/2020/camporee/20201003_110005.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Talakto District Camporee"
+    },
+    {
+        "src": "./img/2020/camporee/20201003_111845.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Talakto District Camporee"
+    },
+    {
+        "src": "./img/2020/chickamauga/20201024_103317.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Chickamauga Civil War Battlefield"
+    },
+    {
+        "src": "./img/2020/chickamauga/20201024_103334.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Chickamauga Civil War Battlefield"
+    },
+    {
+        "src": "./img/2020/chickamauga/20201024_113100.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Chickamauga Civil War Battlefield"
+    },
+    {
+        "src": "./img/2020/chickamauga/20201024_114125.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Chickamauga Civil War Battlefield"
+    },
+    {
+        "src": "./img/2020/chickamauga/20201024_115615.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Chickamauga Civil War Battlefield"
+    },
+    {
+        "src": "./img/2020/chickamauga/20201024_121423.jpg",
+        "w": 576,
+        "h": 1024,
+        "title": "Chickamauga Civil War Battlefield"
+    },
+    {
+        "src": "./img/2020/chickamauga/20201025_105631.jpg",
+        "w": 1024,
+        "h": 576,
+        "title": "Chickamauga Civil War Battlefield"
     },
     {
         "src": "./img/2020/walls_of_jericho/20201107_142712.jpg",
