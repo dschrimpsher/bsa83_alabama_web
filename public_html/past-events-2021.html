@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/myfav.ico">
+
+    <title>Past Events 2021</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/photoswipe.css">
-    <link rel="stylesheet" href="./css/default-skin/default-skin.css">
+        <link rel="stylesheet" href="./css/default-skin/default-skin.css">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/nav.css" rel="stylesheet">
+    <link href="./css/banner.css" rel="stylesheet">
+    <link href="./css/memories.css" rel="stylesheet">
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
 
     <script src="./js/photoswipe.min.js"></script>
     <script src="./js/photoswipe-ui-default.min.js"></script>
-    <script src="./img/2018/meta.js" type="application/javascript"></script>
+    <script src="./img/2021/meta.js" type="application/javascript"></script>
+    <script src="js/memory_gallery.js"></script>
+
 </head>
-<body>
+
+<body onload="get_campouts(campouts)">
+<div w3-include-html="./nav.html"></div>
+
+<script>
+    w3.includeHTML();
+</script>
+<div w3-include-html="./banner.html"></div>
+
+<script>
+    w3.includeHTML();
+</script>
+<script>
+    $(document).ready(function () {
+        $('#past-events').addClass('active');
+    })
+</script>
+
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
@@ -78,20 +115,31 @@
 
 </div>
 
-<script type="application/javascript">
-    var pswpElement = document.querySelectorAll('.pswp')[0];
+<div class="container">
+    <div id="event-root" class="starter-template" >
+        <h2>Fond Memories of 2021</h2>
+        <div class="row">
+        <div class="col-md-12">
+                <button class="btn btn-secondary" id="gallery" onclick="launch()" role="button">Gallery</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-    // define options (if needed)
-    var options = {
-        // optionName: 'option value'
-        // for example:
-        index: 0 // start at first slide
-    };
+<hr class="copywriteline">
+<footer>
+    <p class="copy">&copy; BSA Troop 83 Madison, AL 2018 to </p>
+</footer>
 
-    // Initializes and opens PhotoSwipe
-    var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-    gallery.init();
-</script>
-
+</div>
+<!-- Bootstrap core JavaScript
+  ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.js"></script>
 </body>
 </html>

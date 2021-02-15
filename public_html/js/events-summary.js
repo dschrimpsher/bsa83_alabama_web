@@ -91,7 +91,9 @@ function makeApiCall() {
       'singleEvents': true,
       'timeMin': today.toISOString(), //gathers only events not happened yet
       'maxResults': maxRows,
-      'orderBy': 'startTime'});
+      'orderBy': 'startTime',
+      'SameSite': 'None',
+      'Secure': true});
     request.execute(function (resp) {
       for (var i = 0; i < resp.items.length; i++) {
         var li = document.createElement('li');
@@ -117,7 +119,7 @@ function makeApiCall() {
         li.setAttribute('class', classes.join(' '));
         document.getElementById('events').appendChild(li);
       }
-      document.getElementById('updated').innerHTML = "updated " + today;
+      // document.getElementById('updated').innerHTML = "updated " + today;
       document.getElementById('calendar').innerHTML = calName;
     });
   });

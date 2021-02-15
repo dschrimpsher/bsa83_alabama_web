@@ -9,6 +9,10 @@
     padding-top: 3rem;
 }
 
+.banner-centered-image {
+    display: block;
+    margin: auto;
+}
 
 /* Tiny */
 @media (max-width: 320px) {

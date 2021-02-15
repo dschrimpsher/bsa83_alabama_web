@@ -107,31 +107,31 @@ var items = [
     {
         "src": "./img/2019/grimes/20190504_084559.jpg",
         "w": 1024,
-        "h": 768,
+        "h": 576,
         "title": "Grimes Canoe Base"
     },
     {
         "src": "./img/2019/grimes/20190504_095516.jpg",
         "w": 1024,
-        "h": 768,
+        "h": 576,
         "title": "Grimes Canoe Base"
     },
     {
         "src": "./img/2019/grimes/20190504_102739.jpg",
         "w": 1024,
-        "h": 768,
+        "h": 576,
         "title": "Grimes Canoe Base"
     },
     {
         "src": "./img/2019/grimes/20190504_151209-EFFECTS.jpg",
         "w": 1024,
-        "h": 768,
+        "h": 576,
         "title": "Grimes Canoe Base"
     },
     {
         "src": "./img/2019/grimes/20190505_095002.jpg",
         "w": 1024,
-        "h": 768,
+        "h": 576,
         "title": "Grimes Canoe Base"
     },
 

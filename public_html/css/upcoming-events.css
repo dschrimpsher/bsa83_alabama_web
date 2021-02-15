@@ -303,12 +303,29 @@ footer {
 
 
 .event-box {
-    height: 15rem;
+    height: auto;
     margin-bottom: 1rem;
     overflow: hidden;
     transition: .4s;
     box-shadow: 0px 3px 20px 4px rgba(255, 204, 0, 0.1);
     z:99;
+}
+
+.event-box li {
+    text-align: left;
+}
+.event-box .special {
+    background-color: white;
+    border: solid 1px #003F87;
+    border-radius: 6px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #003F87;
+    overflow: hidden;
+    padding: 5px 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
 }
 
 .event-box:hover  {

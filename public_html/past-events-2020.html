@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="img/myfav.ico">
 
-    <title>Past Events 2018</title>
+    <title>Past Events 2020</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -26,12 +26,12 @@
 
     <script src="./js/photoswipe.min.js"></script>
     <script src="./js/photoswipe-ui-default.min.js"></script>
-    <script src="./img/2018/meta.js" type="application/javascript"></script>
+    <script src="./img/2020/meta.js" type="application/javascript"></script>
     <script src="js/memory_gallery.js"></script>
 
 </head>
 
-<body>
+<body onload="get_campouts(campouts)">
 <div w3-include-html="./nav.html"></div>
 
 <script>
@@ -44,7 +44,7 @@
 </script>
 <script>
     $(document).ready(function () {
-        $('#past-events').addClass('active')
+        $('#past-events').addClass('active');
     })
 </script>
 
@@ -116,10 +116,10 @@
 </div>
 
 <div class="container">
-    <div class="starter-template">
-        <h2>Fond Memories of 2018</h2>
+    <div id="event-root" class="starter-template" >
+        <h2>Fond Memories of 2020</h2>
         <div class="row">
-            <div class="col-md-12">
+        <div class="col-md-12">
                 <button class="btn btn-secondary" id="gallery" onclick="launch()" role="button">Gallery</button>
             </div>
         </div>
@@ -141,6 +141,5 @@
 <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.js"></script>
-
 </body>
 </html>

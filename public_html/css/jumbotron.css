@@ -2,7 +2,7 @@
 body {
     padding-top: 3.5rem;
     background-color: #003F87;
-    color: white;
+    color: antiquewhite;
 }
 
 
@@ -80,6 +80,18 @@ h3 {
 
 .event-list li {
     text-align: left;
+}
+
+.special {
+    background-color: white;
+    border: solid 1px #003F87;
+    border-radius: 6px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #003F87;
+    overflow: hidden;
+    padding: 5px 5px;
+    font-weight: bold;
 }
 
 @media (max-width: 767px) {
